@@ -1,17 +1,17 @@
-nama = input("Masukan nama anda : ")
+nama_anda= "fahrurahman"
 
+while True:
+    nama_input = input("masukkan nama anda:")
+    if nama_input == nama_anda:
+        print("jika benar akan langjut ke program selanjutnya")
+        break
+    else:
+        print("silahkan coba lagi")
 
-print("selamat datang", nama)
+angka = int(input("masukkan angka:"))
 
-umur = int(input("Masukan umur anda : "))
-
-if umur >= 60:
-    print("banyakin ibadah, bentar lagi mati")
-elif umur <= 0:
-    print("anda belum lahir")
-elif umur >= 18:
-    print("anda cukup umur")
-else:
-    print("anda belum cukup umur")
-
-print("Program selesai")
+i = 1
+while i <=30:
+    hasil =angka * i
+    print(f"{angka}*{i}={hasil}")
+    i=i+1
